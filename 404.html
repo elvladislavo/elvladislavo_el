@@ -71,9 +71,6 @@ button{background:none;border:0;cursor:pointer;font:inherit;color:inherit}
 }
 .nav__logo{display:inline-flex;align-items:center;gap:.62rem;font-weight:800;
   letter-spacing:-.035em;font-size:clamp(1rem,1.35vw,1.2rem)}
-.nav__mark{width:1.05em;height:1.05em;flex:none;fill:var(--red);
-  transition:transform .55s var(--e-snap)}
-.nav__logo:hover .nav__mark{transform:scale(1.14)}
 .nav__word{font-variation-settings:"wdth" 100;transition:font-variation-settings .55s var(--e)}
 .nav__logo:hover .nav__word{font-variation-settings:"wdth" 88}
 
@@ -174,13 +171,6 @@ button{background:none;border:0;cursor:pointer;font:inherit;color:inherit}
 
 <header class="nav">
   <a class="nav__logo" id="homeLogo" href="/" aria-label="elvladislavo — home">
-    <svg class="nav__mark" viewBox="0 0 50 50" aria-hidden="true" focusable="false">
-      <rect x="10" y="0"  width="30" height="10"/>
-      <rect x="0"  y="10" width="10" height="10"/><rect x="40" y="10" width="10" height="10"/>
-      <rect x="0"  y="20" width="50" height="10"/>
-      <rect x="0"  y="30" width="10" height="10"/>
-      <rect x="10" y="40" width="30" height="10"/>
-    </svg>
     <span class="nav__word">elvladislavo</span>
   </a>
   <div class="lang" role="group" aria-label="Language / Język">
